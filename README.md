@@ -4,7 +4,7 @@ Some experiments with different tools and frameworks
 ## js_api_icon_exp
 My experimental assignment <br>
 * Creating four slots
-* Each slot open a gallery of icons
+* Each slot opens a gallery of icons
 * Icons are obtained through info combined from json and specified endpoint
 * After choosing the icon, the slot looks like the icon
 * Icons can be changed
