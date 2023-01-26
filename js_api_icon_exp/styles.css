@@ -1,0 +1,49 @@
+/* Gallery container */
+.icon-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+/* Gallery icons */
+.icon-img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Selected icon */
+.icon-img.selected {
+    border-color: #4CAF50;
+}
+
+/* Icon hover effect */
+.icon-img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* Clear button */
+.clear-button {
+    margin-top: 20px;
+}
+
+
+.container d-flex {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .slot-inner {
+    height: 100px;
+  }
+  
